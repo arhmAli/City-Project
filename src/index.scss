@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$primaryBlack:#222;
+$primaryGreen:#82b340;
+$primaryWhite:#fff;
+$primaryGrey:#ecececec;
+$primaryAnimate:radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+body{
+    background: $primaryAnimate;
+    color: $primaryBlack;
+    font-family: 'Open Sans', sans-serif;
+animation: leftToRightMiddle 1.5s linear;
+}
+@keyframes leftToRightMiddle{
+    from{
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+    to{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+   
+    
+}
